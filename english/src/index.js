@@ -200,8 +200,9 @@ document.addEventListener("click", (e) => {
     setTimeout(() => playAudio2(), 1000);
 
     let x = JSON.parse(localStorage.getItem("statistics"));
+    console.log(clickedCard)
     x.forEach((item) => {
-      if (clickedCard.slice(47).slice(0, -4) == item.word) {
+      if (clickedCard.slice(13).slice(0, -4) == item.word) {
         item.correct += 1;
       }
     });
@@ -213,7 +214,7 @@ document.addEventListener("click", (e) => {
     console.log(game.currentWord);
     let y = JSON.parse(localStorage.getItem("statistics"));
     y.forEach((item) => {
-      if (game.currentWord.slice(47).slice(0, -4) == item.word) {
+      if (game.currentWord.slice(13).slice(0, -4) == item.word) {
         item.wrong += 1;
       }
     });
