@@ -1,0 +1,41 @@
+{
+  "name": "english-for-kids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config=webpack.config.prod.js",
+    "build-dev": "webpack --config=webpack.config.dev.js",
+    "start": "webpack-dev-server --config=webpack.config.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinkakhu/English-for-kids.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinkakhu/English-for-kids/issues"
+  },
+  "homepage": "https://github.com/alinkakhu/English-for-kids#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.24.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1",
+    "mini-css-extract-plugin": "^2.6.1"
+  }
+}
