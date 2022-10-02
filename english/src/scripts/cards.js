@@ -5,8 +5,8 @@ export const cards = [
         {
           word: 'cry',
           translation: 'плакать',
-          image: '../src/img/cry.jpg',
-          audioSrc: '../src/audio/cry.mp3',
+          image: 'src/img/cry.jpg',
+          audioSrc: 'src/audio/cry.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -14,8 +14,8 @@ export const cards = [
         {
           word: 'dance',
           translation: 'танцевать',
-          image: '../src/img/dance.jpg',
-          audioSrc: '../src/audio/dance.mp3',
+          image: 'src/img/dance.jpg',
+          audioSrc: 'src/audio/dance.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -23,8 +23,8 @@ export const cards = [
         {
           word: 'dive',
           translation: 'нырять',
-          image: '../src/img/dive.jpg',
-          audioSrc: '../src/audio/dive.mp3',
+          image: 'src/img/dive.jpg',
+          audioSrc: 'src/audio/dive.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -32,8 +32,8 @@ export const cards = [
         {
           word: 'draw',
           translation: 'рисовать',
-          image: '../src/img/draw.jpg',
-          audioSrc: '../src/audio/draw.mp3',
+          image: 'src/img/draw.jpg',
+          audioSrc: 'src/audio/draw.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -41,8 +41,8 @@ export const cards = [
         {
           word: 'fish',
           translation: 'ловить рыбу',
-          image: '../src/img/fish.jpg',
-          audioSrc: '../src/audio/fish.mp3',
+          image: 'src/img/fish.jpg',
+          audioSrc: 'src/audio/fish.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -50,8 +50,8 @@ export const cards = [
         {
           word: 'fly',
           translation: 'летать',
-          image: '../src/img/fly.jpg',
-          audioSrc: '../src/audio/fly.mp3',
+          image: 'src/img/fly.jpg',
+          audioSrc: 'src/audio/fly.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -59,8 +59,8 @@ export const cards = [
         {
           word: 'hug',
           translation: 'обнимать',
-          image: '../src/img/hug.jpg',
-          audioSrc: '../src/audio/hug.mp3',
+          image: 'src/img/hug.jpg',
+          audioSrc: 'src/audio/hug.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -68,8 +68,8 @@ export const cards = [
         {
           word: 'jump',
           translation: 'прыгать',
-          image: '../src/img/jump.jpg',
-          audioSrc: '../src/audio/jump.mp3',
+          image: 'src/img/jump.jpg',
+          audioSrc: 'src/audio/jump.mp3',
           correct: 0,
           wrong: 0,
           clicked:0
@@ -83,8 +83,8 @@ export const cards = [
           {
             word: 'open',
             translation: 'открывать',
-            image: '../src/img/open.jpg',
-            audioSrc: '../src/audio/open.mp3',
+            image: 'src/img/open.jpg',
+            audioSrc: 'src/audio/open.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -92,8 +92,8 @@ export const cards = [
           {
             word: 'play',
             translation: 'играть',
-            image: '../src/img/play.jpg',
-            audioSrc: '../src/audio/play.mp3',
+            image: 'src/img/play.jpg',
+            audioSrc: 'src/audio/play.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -101,8 +101,8 @@ export const cards = [
           {
             word: 'point',
             translation: 'указывать',
-            image: '../src/img/point.jpg',
-            audioSrc: '../src/audio/point.mp3',
+            image: 'src/img/point.jpg',
+            audioSrc: 'src/audio/point.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -110,8 +110,8 @@ export const cards = [
           {
             word: 'ride',
             translation: 'ездить',
-            image: '../src/img/ride.jpg',
-            audioSrc: '../src/audio/ride.mp3',
+            image: 'src/img/ride.jpg',
+            audioSrc: 'src/audio/ride.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -119,8 +119,8 @@ export const cards = [
           {
             word: 'run',
             translation: 'бегать',
-            image: '../src/img/run.jpg',
-            audioSrc: '../src/audio/run.mp3',
+            image: 'src/img/run.jpg',
+            audioSrc: 'src/audio/run.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -128,8 +128,8 @@ export const cards = [
           {
             word: 'sing',
             translation: 'петь',
-            image: '../src/img/sing.jpg',
-            audioSrc: '../src/audio/sing.mp3',
+            image: 'src/img/sing.jpg',
+            audioSrc: 'src/audio/sing.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -137,8 +137,8 @@ export const cards = [
           {
             word: 'skip',
             translation: 'пропускать, прыгать',
-            image: '../src/img/skip.jpg',
-            audioSrc: '../src/audio/skip.mp3',
+            image: 'src/img/skip.jpg',
+            audioSrc: 'src/audio/skip.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -146,8 +146,8 @@ export const cards = [
           {
             word: 'swim',
             translation: 'плавать',
-            image: '../src/img/swim.jpg',
-            audioSrc: '../src/audio/swim.mp3',
+            image: 'src/img/swim.jpg',
+            audioSrc: 'src/audio/swim.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -161,8 +161,8 @@ export const cards = [
           {
             word: 'cat',
             translation: 'кот',
-            image: '../src/img/cat.jpg',
-            audioSrc: '../src/audio/cat.mp3',
+            image: 'src/img/cat.jpg',
+            audioSrc: 'src/audio/cat.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -170,8 +170,8 @@ export const cards = [
           {
             word: 'chick',
             translation: 'цыплёнок',
-            image: '../src/img/chick.jpg',
-            audioSrc: '../src/audio/chick.mp3',
+            image: 'src/img/chick.jpg',
+            audioSrc: 'src/audio/chick.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -179,8 +179,8 @@ export const cards = [
           {
             word: 'chicken',
             translation: 'курица',
-            image: '../src/img/chicken.jpg',
-            audioSrc: '../src/audio/chicken.mp3',
+            image: 'src/img/chicken.jpg',
+            audioSrc: 'src/audio/chicken.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -188,8 +188,8 @@ export const cards = [
           {
             word: 'dog',
             translation: 'собака',
-            image: '../src/img/dog.jpg',
-            audioSrc: '../src/audio/dog.mp3',
+            image: 'src/img/dog.jpg',
+            audioSrc: 'src/audio/dog.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -197,8 +197,8 @@ export const cards = [
           {
             word: 'horse',
             translation: 'лошадь',
-            image: '../src/img/horse.jpg',
-            audioSrc: '../src/audio/horse.mp3',
+            image: 'src/img/horse.jpg',
+            audioSrc: 'src/audio/horse.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -206,8 +206,8 @@ export const cards = [
           {
             word: 'pig',
             translation: 'свинья',
-            image: '../src/img/pig.jpg',
-            audioSrc: '../src/audio/pig.mp3',
+            image: 'src/img/pig.jpg',
+            audioSrc: 'src/audio/pig.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -215,8 +215,8 @@ export const cards = [
           {
             word: 'rabbit',
             translation: 'кролик',
-            image: '../src/img/rabbit.jpg',
-            audioSrc: '../src/audio/rabbit.mp3',
+            image: 'src/img/rabbit.jpg',
+            audioSrc: 'src/audio/rabbit.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -224,8 +224,8 @@ export const cards = [
           {
             word: 'sheep',
             translation: 'овца',
-            image: '../src/img/sheep.jpg',
-            audioSrc: '../src/audio/sheep.mp3',
+            image: 'src/img/sheep.jpg',
+            audioSrc: 'src/audio/sheep.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -239,8 +239,8 @@ export const cards = [
           {
             word: 'bird',
             translation: 'птица',
-            image: '../src/img/bird.jpg',
-            audioSrc: '../src/audio/bird.mp3',
+            image: 'src/img/bird.jpg',
+            audioSrc: 'src/audio/bird.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -248,8 +248,8 @@ export const cards = [
           {
             word: 'fish',
             translation: 'рыба',
-            image: '../src/img/fish1.jpg',
-            audioSrc: '../src/audio/fish.mp3',
+            image: 'src/img/fish1.jpg',
+            audioSrc: 'src/audio/fish.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -257,8 +257,8 @@ export const cards = [
           {
             word: 'frog',
             translation: 'жаба',
-            image: '../src/img/frog.jpg',
-            audioSrc: '../src/audio/frog.mp3',
+            image: 'src/img/frog.jpg',
+            audioSrc: 'src/audio/frog.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -266,8 +266,8 @@ export const cards = [
           {
             word: 'giraffe',
             translation: 'жирафа',
-            image: '../src/img/giraffe.jpg',
-            audioSrc: '../src/audio/giraffe.mp3',
+            image: 'src/img/giraffe.jpg',
+            audioSrc: 'src/audio/giraffe.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -275,8 +275,8 @@ export const cards = [
           {
             word: 'lion',
             translation: 'лев',
-            image: '../src/img/lion.jpg',
-            audioSrc: '../src/audio/lion.mp3',
+            image: 'src/img/lion.jpg',
+            audioSrc: 'src/audio/lion.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -284,8 +284,8 @@ export const cards = [
           {
             word: 'mouse',
             translation: 'мышь',
-            image: '../src/img/mouse.jpg',
-            audioSrc: '../src/audio/mouse.mp3',
+            image: 'src/img/mouse.jpg',
+            audioSrc: 'src/audio/mouse.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -293,8 +293,8 @@ export const cards = [
           {
             word: 'turtle',
             translation: 'черепаха',
-            image: '../src/img/turtle.jpg',
-            audioSrc: '../src/audio/turtle.mp3',
+            image: 'src/img/turtle.jpg',
+            audioSrc: 'src/audio/turtle.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -302,8 +302,8 @@ export const cards = [
           {
             word: 'dolphin',
             translation: 'дельфин',
-            image: '../src/img/dolphin.jpg',
-            audioSrc: '../src/audio/dolphin.mp3',
+            image: 'src/img/dolphin.jpg',
+            audioSrc: 'src/audio/dolphin.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -318,8 +318,8 @@ export const cards = [
           {
             word: 'skirt',
             translation: 'юбка',
-            image: '../src/img/skirt.jpg',
-            audioSrc: '../src/audio/skirt.mp3',
+            image: 'src/img/skirt.jpg',
+            audioSrc: 'src/audio/skirt.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -327,8 +327,8 @@ export const cards = [
           {
             word: 'pants',
             translation: 'брюки',
-            image: '../src/img/pants.jpg',
-            audioSrc: '../src/audio/pants.mp3',
+            image: 'src/img/pants.jpg',
+            audioSrc: 'src/audio/pants.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -336,8 +336,8 @@ export const cards = [
           {
             word: 'blouse',
             translation: 'блузка',
-            image: '../src/img/blouse.jpg',
-            audioSrc: '../src/audio/blouse.mp3',
+            image: 'src/img/blouse.jpg',
+            audioSrc: 'src/audio/blouse.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -345,8 +345,8 @@ export const cards = [
           {
             word: 'dress',
             translation: 'платье',
-            image: '../src/img/dress.jpg',
-            audioSrc: '../src/audio/dress.mp3',
+            image: 'src/img/dress.jpg',
+            audioSrc: 'src/audio/dress.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -354,8 +354,8 @@ export const cards = [
           {
             word: 'boot',
             translation: 'ботинок',
-            image: '../src/img/boot.jpg',
-            audioSrc: '../src/audio/boot.mp3',
+            image: 'src/img/boot.jpg',
+            audioSrc: 'src/audio/boot.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -363,8 +363,8 @@ export const cards = [
           {
             word: 'shirt',
             translation: 'рубашка',
-            image: '../src/img/shirt.jpg',
-            audioSrc: '../src/audio/shirt.mp3',
+            image: 'src/img/shirt.jpg',
+            audioSrc: 'src/audio/shirt.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -372,8 +372,8 @@ export const cards = [
           {
             word: 'coat',
             translation: 'пальто',
-            image: '../src/img/coat.jpg',
-            audioSrc: '../src/audio/coat.mp3',
+            image: 'src/img/coat.jpg',
+            audioSrc: 'src/audio/coat.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -381,8 +381,8 @@ export const cards = [
           {
             word: 'shoe',
             translation: 'туфли',
-            image: '../src/img/shoe.jpg',
-            audioSrc: '../src/audio/shoe.mp3',
+            image: 'src/img/shoe.jpg',
+            audioSrc: 'src/audio/shoe.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -396,8 +396,8 @@ export const cards = [
           {
             word: 'sad',
             translation: 'грустный',
-            image: '../src/img/sad.jpg',
-            audioSrc: '../src/audio/sad.mp3',
+            image: 'src/img/sad.jpg',
+            audioSrc: 'src/audio/sad.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -405,16 +405,16 @@ export const cards = [
           {
             word: 'angry',
             translation: 'сердитый',
-            image: '../src/img/angry.jpg',
-            audioSrc: '../src/audio/angry.mp3',
+            image: 'src/img/angry.jpg',
+            audioSrc: 'src/audio/angry.mp3',
             correct: 0,
             wrong: 0
           },
           {
             word: 'happy',
             translation: 'счастливый',
-            image: '../src/img/happy.jpg',
-            audioSrc: '../src/audio/happy.mp3',
+            image: 'src/img/happy.jpg',
+            audioSrc: 'src/audio/happy.mp3',
             correct: 0,
             wrong: 0,
             clicked: 0
@@ -422,8 +422,8 @@ export const cards = [
           {
             word: 'tired',
             translation: 'уставший',
-            image: '../src/img/tired.jpg',
-            audioSrc: '../src/audio/tired.mp3',
+            image: 'src/img/tired.jpg',
+            audioSrc: 'src/audio/tired.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -431,8 +431,8 @@ export const cards = [
           {
             word: 'surprised',
             translation: 'удивлённый',
-            image: '../src/img/surprised.jpg',
-            audioSrc: '../src/audio/surprised.mp3',
+            image: 'src/img/surprised.jpg',
+            audioSrc: 'src/audio/surprised.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -440,8 +440,8 @@ export const cards = [
           {
             word: 'scared',
             translation: 'испуганный',
-            image: '../src/img/scared.jpg',
-            audioSrc: '../src/audio/scared.mp3',
+            image: 'src/img/scared.jpg',
+            audioSrc: 'src/audio/scared.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -449,8 +449,8 @@ export const cards = [
           {
             word: 'smile',
             translation: 'улыбка',
-            image: '../src/img/smile.jpg',
-            audioSrc: '../src/audio/smile.mp3',
+            image: 'src/img/smile.jpg',
+            audioSrc: 'src/audio/smile.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -458,8 +458,8 @@ export const cards = [
           {
             word: 'laugh',
             translation: 'смех',
-            image: '../src/img/laugh.jpg',
-            audioSrc: '../src/audio/laugh.mp3',
+            image: 'src/img/laugh.jpg',
+            audioSrc: 'src/audio/laugh.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -473,7 +473,7 @@ export const cards = [
           {
             word: 'banana',
             translation: 'банан',
-            image: '../src/img/banana.jpg',
+            image: 'src/img/banana.jpg',
             audioSrc: '../src/audio/banana.mp3',
             correct: 0,
             wrong: 0,
@@ -482,8 +482,8 @@ export const cards = [
           {
             word: 'broccoli',
             translation: 'брокколи',
-            image: '../src/img/broccoli.jpg',
-            audioSrc: '../src/audio/broccoli.mp3',
+            image: 'src/img/broccoli.jpg',
+            audioSrc: 'src/audio/broccoli.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -491,8 +491,8 @@ export const cards = [
           {
             word: 'carrot',
             translation: 'морковь',
-            image: '../src/img/carrot.jpg',
-            audioSrc: '../src/audio/carrot.mp3',
+            image: 'src/img/carrot.jpg',
+            audioSrc: 'src/audio/carrot.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -500,8 +500,8 @@ export const cards = [
           {
             word: 'cherry',
             translation: 'вишня',
-            image: '../src/img/cherry.jpg',
-            audioSrc: '../src/audio/cherry.mp3',
+            image: 'src/img/cherry.jpg',
+            audioSrc: 'src/audio/cherry.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -509,8 +509,8 @@ export const cards = [
           {
             word: 'lemon',
             translation: 'лимон',
-            image: '../src/img/lemon.jpg',
-            audioSrc: '../src/audio/lemon.mp3',
+            image: 'src/img/lemon.jpg',
+            audioSrc: 'src/audio/lemon.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -518,8 +518,8 @@ export const cards = [
           {
             word: 'pineapple',
             translation: 'ананас',
-            image: '../src/img/pineapple.jpg',
-            audioSrc: '../src/audio/pineapple.mp3',
+            image: 'src/img/pineapple.jpg',
+            audioSrc: 'src/audio/pineapple.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -527,8 +527,8 @@ export const cards = [
           {
             word: 'strawberry',
             translation: 'клубника',
-            image: '../src/img/strawberry.jpg',
-            audioSrc: '../src/audio/strawberry.mp3',
+            image: 'src/img/strawberry.jpg',
+            audioSrc: 'src/audio/strawberry.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -536,8 +536,8 @@ export const cards = [
           {
             word: 'watermelon',
             translation: 'арбуз',
-            image: '../src/img/watermelon.jpg',
-            audioSrc: '../src/audio/watermelon.mp3',
+            image: 'src/img/watermelon.jpg',
+            audioSrc: 'src/audio/watermelon.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -551,8 +551,8 @@ export const cards = [
           {
             word: 'mountain',
             translation: 'гора',
-            image: '../src/img/mountain.jpg',
-            audioSrc: '../src/audio/mountain.mp3',
+            image: 'src/img/mountain.jpg',
+            audioSrc: 'src/audio/mountain.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -560,8 +560,8 @@ export const cards = [
           {
             word: 'sea',
             translation: 'море',
-            image: '../src/img/sea.jpg',
-            audioSrc: '../src/audio/sea.mp3',
+            image: 'src/img/sea.jpg',
+            audioSrc: 'src/audio/sea.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -569,8 +569,8 @@ export const cards = [
           {
             word: 'tree',
             translation: 'дерево',
-            image: '../src/img/tree.jpg',
-            audioSrc: '../src/audio/tree.mp3',
+            image: 'src/img/tree.jpg',
+            audioSrc: 'src/audio/tree.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -578,8 +578,8 @@ export const cards = [
           {
             word: 'lake',
             translation: 'озеро',
-            image: '../src/img/lake.jpg',
-            audioSrc: '../src/audio/lake.mp3',
+            image: 'src/img/lake.jpg',
+            audioSrc: 'src/audio/lake.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -587,8 +587,8 @@ export const cards = [
           {
             word: 'grass',
             translation: 'трава',
-            image: '../src/img/grass.jpg',
-            audioSrc: '../src/audio/grass.mp3',
+            image: 'src/img/grass.jpg',
+            audioSrc: 'src/audio/grass.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -596,8 +596,8 @@ export const cards = [
           {
             word: 'forest',
             translation: 'лес',
-            image: '../src/img/forest.jpg',
-            audioSrc: '../src/audio/forest.mp3',
+            image: 'src/img/forest.jpg',
+            audioSrc: 'src/audio/forest.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -605,8 +605,8 @@ export const cards = [
           {
             word: 'flower',
             translation: 'цветок',
-            image: '../src/img/flower.jpg',
-            audioSrc: '../src/audio/flower.mp3',
+            image: 'src/img/flower.jpg',
+            audioSrc: 'src/audio/flower.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
@@ -614,8 +614,8 @@ export const cards = [
           {
             word: 'desert',
             translation: 'пустыня',
-            image: '../src/img/desert.jpg',
-            audioSrc: '../src/audio/desert.mp3',
+            image: 'src/img/desert.jpg',
+            audioSrc: 'src/audio/desert.mp3',
             correct: 0,
             wrong: 0,
             clicked:0
