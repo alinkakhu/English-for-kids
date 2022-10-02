@@ -7,7 +7,7 @@ export function getCurrentArrCards() {
 
     game.startBtnisClicked = true;
      currentCards.forEach(item => {
-
+console.log(item.querySelector('audio').src.slice(19).replace('00', '..'))
       game.audioArray.push(item.querySelector('audio').src.slice(19).replace('00', '..'));
 
      });
