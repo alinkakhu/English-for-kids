@@ -189,7 +189,7 @@ document.addEventListener("click", (e) => {
   let clickedCard = e.target
     .closest(".front")
     .lastElementChild.querySelector("audio")
-    .src.slice(13)
+    .src.slice(53)
 
 
   if (clickedCard === game.currentWord) {
@@ -200,7 +200,7 @@ document.addEventListener("click", (e) => {
     setTimeout(() => playAudio2(), 1000);
 
     let x = JSON.parse(localStorage.getItem("statistics"));
-    console.log(clickedCard)
+    console.log(clickedCard.slice(10).slice(0, -4))
     x.forEach((item) => {
       if (clickedCard.slice(10).slice(0, -4) == item.word) {
         item.correct += 1;
