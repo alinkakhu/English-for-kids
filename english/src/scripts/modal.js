@@ -14,15 +14,15 @@ export const modalWinImg = document.querySelector('.modal-win-img');
   if (count >= 7) {
 
     modalText.textContent = 'You win!';
-    modalWinImg.src = '../src/img/success.jpg';
-    new Audio('../src/audio/success.mp3').play();
+    modalWinImg.src = 'src/img/success.jpg';
+    new Audio('src/audio/success.mp3').play();
     setTimeout(() => refreshPage(), 3000)
   }
   else {
 
     modalText.textContent = 'You lose!';
-    modalWinImg.src = '../src/img/failure.jpg';
-    new Audio('../src/audio/failure.mp3').play();
+    modalWinImg.src = 'src/img/failure.jpg';
+    new Audio('src/audio/failure.mp3').play();
     setTimeout(() => refreshPage(), 3000)
   }
 }

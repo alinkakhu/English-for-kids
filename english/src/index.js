@@ -189,8 +189,8 @@ document.addEventListener("click", (e) => {
   let clickedCard = e.target
     .closest(".front")
     .lastElementChild.querySelector("audio")
-    .src.slice(19)
-    .replace("00", "..");
+    .src.slice(53)
+
 
   if (clickedCard === game.currentWord) {
     playCorrect();
@@ -201,7 +201,7 @@ document.addEventListener("click", (e) => {
 
     let x = JSON.parse(localStorage.getItem("statistics"));
     x.forEach((item) => {
-      if (clickedCard.slice(13).slice(0, -4) == item.word) {
+      if (clickedCard.slice(47).slice(0, -4) == item.word) {
         item.correct += 1;
       }
     });
@@ -213,7 +213,7 @@ document.addEventListener("click", (e) => {
     console.log(game.currentWord);
     let y = JSON.parse(localStorage.getItem("statistics"));
     y.forEach((item) => {
-      if (game.currentWord.slice(13).slice(0, -4) == item.word) {
+      if (game.currentWord.slice(47).slice(0, -4) == item.word) {
         item.wrong += 1;
       }
     });
@@ -223,17 +223,17 @@ document.addEventListener("click", (e) => {
 });
 
 function playCorrect() {
-  new Audio("../src/audio/correct.mp3").play();
+  new Audio("src/audio/correct.mp3").play();
 }
 function playFailure() {
-  new Audio("../src/audio/error.mp3").play();
+  new Audio("src/audio/error.mp3").play();
 }
 
 const starsContainer = document.querySelector(".stars");
 
 function appendStar() {
   const winStar = document.createElement("img");
-  winStar.src = "../src/img/win-star.svg";
+  winStar.src = "src/img/win-star.svg";
   winStar.classList.add("star");
   starsContainer.append(winStar);
 }
@@ -241,7 +241,7 @@ function appendStar() {
 function appendLoseStar() {
   const loseStar = document.createElement("img");
   loseStar.classList.add("star");
-  loseStar.src = "../src/img/lose-star.svg";
+  loseStar.src = "src/img/lose-star.svg";
   starsContainer.append(loseStar);
 }
 
