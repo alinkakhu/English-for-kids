@@ -7,7 +7,7 @@ export function getCurrentArrCards() {
 
     game.startBtnisClicked = true;
      currentCards.forEach(item => {
-console.log(item.querySelector('audio').src.slice(19).replace('00', '..'))
+console.log(item.querySelector('audio').src.slice(19).replace('ithub.io/English-for-kids/english', '..'))
       game.audioArray.push(item.querySelector('audio').src.slice(19).replace('00', '..'));
 
      });
