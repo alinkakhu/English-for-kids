@@ -95,8 +95,10 @@ export function createCard(obj) {
     // console.log(card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(32).slice(0, -4))
     card.closest('li').classList.add('is-flipped');
      let storage = JSON.parse(localStorage.getItem('statistics'));
+     console.log(card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(13).slice(0, -4))
       storage.forEach((item) => {
-        if (card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(32).slice(0, -4) == item.word) {
+        if (card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(13).slice(0, -4) == item.word) {
+
           item.clicked += 1;
         }
       });
@@ -111,10 +113,10 @@ export function createCard(obj) {
   }
 
   document.addEventListener('click', (e) => {
-    console.log(e.target)
+
      if (e.target.classList.contains('turn')) {
       let audio = e.target.closest('li').firstElementChild.lastElementChild.querySelector('audio').src;
-      console.log(e.target)
+
       flipCard(e.target);
       new Audio(audio).play();
        reverseFlip(e.target);
