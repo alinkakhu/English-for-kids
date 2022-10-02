@@ -189,7 +189,7 @@ document.addEventListener("click", (e) => {
   let clickedCard = e.target
     .closest(".front")
     .lastElementChild.querySelector("audio")
-    .src.slice(53)
+    .src.slice(13)
 
 
   if (clickedCard === game.currentWord) {
