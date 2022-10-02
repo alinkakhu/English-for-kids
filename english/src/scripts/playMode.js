@@ -7,8 +7,8 @@ export function getCurrentArrCards() {
 
     game.startBtnisClicked = true;
      currentCards.forEach(item => {
-console.log(item.querySelector('audio').src.slice(50).replace('sh', '..'))
-      game.audioArray.push(item.querySelector('audio').src.slice(50).replace('sh', '..'));
+console.log(item.querySelector('audio').src.slice(53))
+      game.audioArray.push(item.querySelector('audio').src.slice(53));
 
      });
       game.audioArray.sort(() => Math.random() - 0.5);
