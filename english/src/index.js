@@ -3,7 +3,7 @@ import {
   createCard,
   createMainCards,
   categoryC,
-  mainCard,
+
 } from "./scripts/createCards.js";
 import {
   generateStatistics,
@@ -88,6 +88,7 @@ main.addEventListener("click", (e) => {
 createMainCards();
 
 function changeStyle() {
+  let changeMainC = document.querySelectorAll('.main-card')
   game.startBtnisClicked = false;
   playMode = !playMode;
   let ul = document.querySelector(".main-list");
@@ -102,7 +103,7 @@ function changeStyle() {
   if (train.classList.contains("none")) {
     navList.classList.add("play-mode");
     burgerIcon.classList.add("play-icon");
-    mainCard.forEach((item) => {
+    changeMainC.forEach((item) => {
       item.classList.add("play-mode");
     });
 
@@ -129,7 +130,7 @@ function changeStyle() {
     startDiv.classList.add("none");
     burgerIcon.classList.remove("play-icon");
     navList.classList.remove("play-mode");
-    categoryC.categoryCards.forEach((item) => {
+   [...categoryC.categoryCards].forEach((item) => {
       item.closest("li").classList.remove("disabled");
       item.closest("li").removeAttribute("disabled");
       item.closest("li").style.pointerEvents = "auto";
@@ -139,7 +140,7 @@ function changeStyle() {
       const imgCard = item.closest("li").querySelector(".card-img");
       imgCard.classList.remove("img-play");
     });
-    mainCard.forEach((item) => {
+    changeMainC.forEach((item) => {
       item.classList.remove("play-mode");
     });
     game.audioArray = [];
@@ -189,8 +190,11 @@ document.addEventListener("click", (e) => {
   let clickedCard = e.target
     .closest(".front")
     .lastElementChild.querySelector("audio")
-    .src.slice(53)
+    .src.slice(53);
 
+    if(!clickedCard){
+      return
+    }
 
   if (clickedCard === game.currentWord) {
     playCorrect();
@@ -200,7 +204,7 @@ document.addEventListener("click", (e) => {
     setTimeout(() => playAudio2(), 1000);
 
     let x = JSON.parse(localStorage.getItem("statistics"));
-    console.log(clickedCard.slice(10).slice(0, -4))
+
     x.forEach((item) => {
       if (clickedCard.slice(10).slice(0, -4) == item.word) {
         item.correct += 1;
@@ -211,7 +215,7 @@ document.addEventListener("click", (e) => {
     appendLoseStar();
     playFailure();
     count--;
-    console.log(game.currentWord);
+
     let y = JSON.parse(localStorage.getItem("statistics"));
     y.forEach((item) => {
       if (game.currentWord.slice(10).slice(0, -4) == item.word) {
@@ -304,7 +308,7 @@ document.addEventListener("click", (e) => {
       }
     });
     startBtn.setAttribute("disabled", "");
-    console.log(repeatArr);
+
     const newRepeatArr = repeatArr
       .map((item) => {
         return `<li class="card repeat">

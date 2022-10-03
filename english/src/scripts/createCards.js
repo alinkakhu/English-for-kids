@@ -92,10 +92,10 @@ export function createCard(obj) {
 
 
  export function flipCard(card) {
-    // console.log(card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(32).slice(0, -4))
+
     card.closest('li').classList.add('is-flipped');
      let storage = JSON.parse(localStorage.getItem('statistics'));
-     console.log(card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(63).slice(0, -4))
+
       storage.forEach((item) => {
         if (card.closest('li').firstElementChild.lastElementChild.querySelector('audio').src.slice(63).slice(0, -4) == item.word) {
 
