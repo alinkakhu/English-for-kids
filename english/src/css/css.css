@@ -113,6 +113,7 @@ p {
     cursor: pointer;
 }
 
+
 .nav-list {
     position: absolute;
     width: 25%;
@@ -123,10 +124,16 @@ p {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     transform: translateX(-100%);
 background-image: linear-gradient(to right, #00b4db, #0083b0);
+ transition: all 0.5s ease;
 
 
 }
+@media screen and (max-width:770px)  {
+    .nav-list{
+        width: 60%;
 
+    }
+    }
 .nav-link{
     font-family: 'Mingzat', sans-serif;
     font-size: 17px;
@@ -401,7 +408,6 @@ transform: translateX(0px);
     transform:rotate(360deg);
 }
 .play-mode{
-
 background-image: linear-gradient(to right, #A40606, #D98324);
 }
 .burger .play-icon{
@@ -412,7 +418,7 @@ background-image: linear-gradient(to right, #A40606, #D98324);
 }
 
 .card-play{
-height: 220px;
+height: 260px;
 background-image: linear-gradient(to right, #A40606, #D98324);
 
 }
@@ -513,4 +519,9 @@ display: block;
 }
 .category-list.category-repeat{
     justify-content: space-around;
+}
+.card .img-play{
+    height: 260px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }

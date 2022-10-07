@@ -9,7 +9,7 @@ import {
   generateStatistics,
   generateStatisticsRow,
 } from "./scripts/statistics.js";
-import { winImage, modalOverlay, modalWin } from "./scripts/modal";
+import { winImage, modalOverlay, modalWin } from "./scripts/modal.js";
 import {
   repeatBtn,
   startBtn,
@@ -17,6 +17,7 @@ import {
   playAudio2,
 } from "./scripts/playMode.js";
 
+export let mistakes =0;
 export let count = 0;
 export let startCount = 0;
 export let game = {
@@ -55,6 +56,7 @@ menu.addEventListener("click", (e) => {
     e.target.classList.contains("nav-item") ||
     e.target.classList.contains("nav-link")
   ) {
+
     if (target === "Main page") {
       main.innerHTML = "";
       createMainCards();
@@ -214,6 +216,7 @@ document.addEventListener("click", (e) => {
   } else {
     appendLoseStar();
     playFailure();
+    mistakes++;
     count--;
 
     let y = JSON.parse(localStorage.getItem("statistics"));
@@ -241,6 +244,7 @@ function appendStar() {
   winStar.src = "src/img/win-star.svg";
   winStar.classList.add("star");
   starsContainer.append(winStar);
+  countStars()
 }
 
 function appendLoseStar() {
@@ -248,8 +252,17 @@ function appendLoseStar() {
   loseStar.classList.add("star");
   loseStar.src = "src/img/lose-star.svg";
   starsContainer.append(loseStar);
+  countStars()
 }
 
+function countStars(){
+  let starsCount = document.querySelectorAll('.star');
+  if(starsCount.length>=10){
+starsCount.forEach((item)=>{
+  item.remove()
+})
+  }
+}
 export const input = document.querySelector("input");
 export function refreshPage() {
   modalOverlay.classList.remove("is-open");
