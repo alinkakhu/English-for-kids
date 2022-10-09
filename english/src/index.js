@@ -3,7 +3,6 @@ import {
   createCard,
   createMainCards,
   categoryC,
-
 } from "./scripts/createCards.js";
 import {
   generateStatistics,
@@ -17,7 +16,7 @@ import {
   playAudio2,
 } from "./scripts/playMode.js";
 
-export let mistakes =0;
+export let mistakes = 0;
 export let count = 0;
 export let startCount = 0;
 export let game = {
@@ -56,7 +55,6 @@ menu.addEventListener("click", (e) => {
     e.target.classList.contains("nav-item") ||
     e.target.classList.contains("nav-link")
   ) {
-
     if (target === "Main page") {
       main.innerHTML = "";
       createMainCards();
@@ -90,7 +88,7 @@ main.addEventListener("click", (e) => {
 createMainCards();
 
 function changeStyle() {
-  let changeMainC = document.querySelectorAll('.main-card')
+  let changeMainC = document.querySelectorAll(".main-card");
   game.startBtnisClicked = false;
   playMode = !playMode;
   let ul = document.querySelector(".main-list");
@@ -132,7 +130,7 @@ function changeStyle() {
     startDiv.classList.add("none");
     burgerIcon.classList.remove("play-icon");
     navList.classList.remove("play-mode");
-   [...categoryC.categoryCards].forEach((item) => {
+    [...categoryC.categoryCards].forEach((item) => {
       item.closest("li").classList.remove("disabled");
       item.closest("li").removeAttribute("disabled");
       item.closest("li").style.pointerEvents = "auto";
@@ -194,9 +192,9 @@ document.addEventListener("click", (e) => {
     .lastElementChild.querySelector("audio")
     .src.slice(53);
 
-    if(!clickedCard){
-      return
-    }
+  if (!clickedCard) {
+    return;
+  }
 
   if (clickedCard === game.currentWord) {
     playCorrect();
@@ -244,7 +242,7 @@ function appendStar() {
   winStar.src = "src/img/win-star.svg";
   winStar.classList.add("star");
   starsContainer.append(winStar);
-  countStars()
+  countStars();
 }
 
 function appendLoseStar() {
@@ -252,15 +250,15 @@ function appendLoseStar() {
   loseStar.classList.add("star");
   loseStar.src = "src/img/lose-star.svg";
   starsContainer.append(loseStar);
-  countStars()
+  countStars();
 }
 
-function countStars(){
-  let starsCount = document.querySelectorAll('.star');
-  if(starsCount.length>=10){
-starsCount.forEach((item)=>{
-  item.remove()
-})
+function countStars() {
+  let starsCount = document.querySelectorAll(".star");
+  if (starsCount.length >= 10) {
+    starsCount.forEach((item) => {
+      item.remove();
+    });
   }
 }
 export const input = document.querySelector("input");

@@ -5,6 +5,7 @@ export const modalText = document.querySelector('.modal-win-text');
 export const modalWinImg = document.querySelector('.modal-win-img');
  export const modalOverlay = document.querySelector('.modal-overlay');
  export const mistakesP = document.querySelector('.mistakes');
+
  import { count, mistakes} from '../index';
 
  export function winImage() {
@@ -16,7 +17,7 @@ export const modalWinImg = document.querySelector('.modal-win-img');
 
     modalText.textContent = 'You win!';
     modalWinImg.src = 'src/img/success.jpg';
-    mistakesP.textContent =0;
+    mistakesP.textContent =`Mistakes: 0`;
     new Audio('src/audio/success.mp3').play();
     setTimeout(() => refreshPage(), 3000)
   }
@@ -24,7 +25,7 @@ export const modalWinImg = document.querySelector('.modal-win-img');
 
     modalText.textContent = 'You lose!';
     modalWinImg.src = 'src/img/failure.jpg';
-    mistakesP.textContent = mistakes
+    mistakesP.textContent = `Mistakes : ${mistakes}`
     new Audio('src/audio/failure.mp3').play();
     setTimeout(() => refreshPage(), 3000)
   }
